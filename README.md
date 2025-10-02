@@ -22,6 +22,7 @@ Abaixo estão os projetos desenvolvidos durante meu plano de estudos intensivo d
 | Dia | Projeto | Habilidades Demonstradas | Link |
 |:---:|:---|:---|:---|
 | 01 | Validador de Lote de Transações | Lógica de Programação, Validação de Dados, Python Básico | [Acessar Projeto](./01-Validacao-Transacoes/) |
+| 02 | Mini-Sistema de Gerenciamento de Inventário | Funções, Dicionários, Modularização de Código | [Acessar Projeto](./02-Gerenciamento-Inventario/) |
 
 
 ## 📫 Contato
