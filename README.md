@@ -25,6 +25,7 @@ Abaixo estão os projetos desenvolvidos durante meu plano de estudos intensivo d
 | 02 | Mini-Sistema de Gerenciamento de Inventário | Funções, Dicionários, Modularização de Código | [Acessar Projeto](./02-Gerenciamento-Inventario/) |
 | 03 | Análise de Performance de Campanhas (Teste A/B) | NumPy, Análise Estatística, Tomada de Decisão com Dados | [Acessar Projeto](./03-Analise-Campanhas-Marketing/) |
 | 04 | Primeira Análise da Base de Clientes (CRM) | Pandas, Análise Exploratória de Dados (EDA), Qualidade de Dados | [Acessar Projeto](./04-Analise-Base-Clientes/) |
+| 05 | Relatório Gerencial de Vendas por Categoria | Pandas, Agregação de Dados (`groupby`), Relatórios Gerenciais | [Acessar Projeto](./05-Relatorio-Vendas-Categoria/) |
 
 
 ## 📫 Contato
