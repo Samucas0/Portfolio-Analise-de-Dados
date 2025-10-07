@@ -1,0 +1,8 @@
+ID_Venda,ID_Produto,Categoria,Valor,Data
+101,1,Eletronicos,1200.00,2024-01-02
+102,3,Livros,45.50,2024-01-03
+103,2,Vestuario,150.00,2024-01-04
+104,1,Eletronicos,1350.00,2024-01-05
+105,4,Eletronicos,999.90,2024-01-06
+106,3,Livros,50.00,2024-01-07
+107,2,Vestuario,175.00,2024-01-08
