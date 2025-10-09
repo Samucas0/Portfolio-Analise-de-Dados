@@ -25,11 +25,7 @@ The goal of this project is to analyze a large transactional dataset from an e-c
 ## 📊 Results & Insights
 The analysis successfully identified the best-selling products, which are key drivers of revenue, as well as the underperforming products that may be consuming valuable inventory space.
 
-<<<<<<< HEAD:07-Diagnostico-Performance-Ecommerce/README.md
 ![alt text](image.png)
-=======
-<img width="418" height="414" alt="image" src="https://github.com/user-attachments/assets/df0c1106-42fb-4fc8-a1d5-4adbb5990c5f" />
->>>>>>> eda00b96b99f9cf6b0cb0cd7af0354016fcbc241:07-Ecommerce-Performance-Diagnosis/README.md
 
 **Recommendation:**
 -   **Top 5:** Ensure these products are always in stock and consider them for featured marketing campaigns.
@@ -37,10 +33,7 @@ The analysis successfully identified the best-selling products, which are key dr
 
 ## 💡 Conclusion
 This project demonstrates a complete, end-to-end analytical workflow: from handling a large, messy, real-world dataset to producing a clear, data-driven business recommendation. It showcases the power of Pandas to efficiently process and aggregate data to extract valuable insights.
-<<<<<<< HEAD:07-Diagnostico-Performance-Ecommerce/README.md
 
 ## 💾 Data Source
 The dataset used in this analysis is the "Online Retail II UCI" dataset. It can be downloaded from Kaggle via the following link:
 [https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
-=======
->>>>>>> eda00b96b99f9cf6b0cb0cd7af0354016fcbc241:07-Ecommerce-Performance-Diagnosis/README.md
