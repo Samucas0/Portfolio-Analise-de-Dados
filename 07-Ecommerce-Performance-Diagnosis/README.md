@@ -25,7 +25,7 @@ The goal of this project is to analyze a large transactional dataset from an e-c
 ## 📊 Results & Insights
 The analysis successfully identified the best-selling products, which are key drivers of revenue, as well as the underperforming products that may be consuming valuable inventory space.
 
-*(This is where you would paste a screenshot of your final output tables from the notebook)*
+<img width="418" height="414" alt="image" src="https://github.com/user-attachments/assets/df0c1106-42fb-4fc8-a1d5-4adbb5990c5f" />
 
 **Recommendation:**
 -   **Top 5:** Ensure these products are always in stock and consider them for featured marketing campaigns.
