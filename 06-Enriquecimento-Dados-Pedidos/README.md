@@ -1,47 +1,29 @@
-# Projeto 6: Enriquecimento de Dados para Análise de Marketing
+[🇧🇷 Para a versão em português, clique aqui.](./LEIA-ME.md)
 
-## 🎯 Objetivo de Negócio
+---
 
-O objetivo deste projeto foi executar um fluxo de trabalho fundamental em análise de dados: **enriquecer** uma base de dados transacional (pedidos) com informações demográficas de uma segunda base (clientes). A meta final era responder à pergunta de negócio: "Em qual região os clientes gastam mais, em média, por pedido?", um insight impossível de se obter com qualquer uma das fontes de dados isoladamente.
+# Project 6: Data Enrichment for Marketing Analysis
 
-## 📚 Bibliotecas e Conceitos Utilizados
+## 🎯 Business Objective
+The objective of this project was to execute a fundamental data analysis workflow: **enriching** a transactional database (orders) with demographic information from a second database (customers). The final goal was to answer the business question: "In which region do customers spend more, on average, per order?", an insight impossible to obtain from either data source alone.
 
--   **Biblioteca:** `Pandas`
--   **Conceitos Principais:**
-    -   **Junção de Dados:** `pd.merge()` com ênfase no método `how='left'` para garantir a integridade dos dados da tabela principal.
-    -   **Tratamento de Dados Ausentes:** Identificação de valores nulos (`NaN`) resultantes da junção e limpeza com `.dropna()`.
-    -   **Agregação de Dados:** Combinação de `.groupby()` com `.mean()` para calcular a métrica final.
+## 📚 Libraries and Concepts Used
+-   **Library:** `Pandas`
+-   **Key Concepts:**
+    -   Data Joining: `pd.merge()` with a focus on the `how='left'` method.
+    -   Handling Missing Data: Identifying `NaN` values resulting from the join and cleaning them with `.dropna()`.
+    -   Data Aggregation: Combining `.groupby()` with `.mean()` to calculate the final metric.
 
-## 📖 Descrição do Processo
+## 📖 Process Description
+1.  **Foundational Exercise (`exercicio_pratico/tratamento_notas_faltantes.py`):** The preparation for this project began with an exercise focused on data cleaning: using `.fillna()` to replace `NaN`s in a grades column with the column's mean value.
+2.  **Main Project (`analise_pedidos_clientes.ipynb`):**
+    -   **Extraction:** Two distinct datasets, `pedidos.csv` and `clientes_regiao.csv`, were loaded.
+    -   **Transformation (Merge):** A `left merge` was used to join the two DataFrames, with the orders table as the left table. This choice was critical to ensure all orders were kept, even those without a matching customer.
+    -   **Transformation (Cleaning):** After the join, rows with null values (representing "orphan orders") were removed using `.dropna()` as they could not be assigned to a region.
+    -   **Analysis & Aggregation:** The clean, enriched DataFrame was then grouped by `Regiao` (Region), and the mean of the `Valor_Pedido` (Order Value) was calculated for each group.
 
-1.  **Exercício Prático (`exercicio_pratico/tratamento_notas_faltantes.py`):**
-    A preparação para este projeto começou com um exercício focado em uma técnica essencial de limpeza de dados: o preenchimento de valores nulos. O script praticou o uso de `.fillna()` para substituir `NaN`s em uma coluna de notas com o valor da média da própria coluna, garantindo que a integridade estatística do dataset fosse mantida.
+## 📊 Results & Insights
+The analysis revealed that, on average, customers from the 'Nordeste' (Northeast) region have the highest spend per order. This is a counter-intuitive insight, as other regions might have higher total sales volume but a lower average spend per customer. The process also identified an "orphan order," highlighting a data integrity issue between the company's databases.
 
-2.  **Desenvolvimento do Projeto Principal (`analise_pedidos_clientes.ipynb`):**
-    -   **Extração:** Carregamento dos dois datasets distintos: `pedidos.csv` e `clientes_regiao.csv`.
-    -   **Transformação (Merge):** Foi utilizado um `left merge` para unir os dois DataFrames, com `df_pedidos` como a tabela da esquerda. Essa escolha foi **crítica e intencional** para cumprir o requisito de manter todos os pedidos, mesmo aqueles sem um cliente correspondente na base de clientes, que se tornam `NaN` após a junção.
-    -   **Transformação (Limpeza):** Após a junção, as linhas com dados nulos (representando os "pedidos órfãos") foram removidas com `.dropna()`, pois não poderiam ser atribuídas a uma região para a análise final.
-    -   **Análise e Agregação:** O DataFrame limpo e enriquecido foi então agrupado por `Regiao`, e a média do `Valor_Pedido` foi calculada para cada grupo, respondendo diretamente à pergunta de negócio.
-
-## 📊 Resultados e Insights
-
-A análise do gasto médio por região, após a junção e limpeza dos dados, gerou o seguinte resultado:
-
-| Regiao | Valor_Pedido |
-| :--- | :--- |
-| Nordeste | 500.00 |
-| Sudeste | 162.62 |
-| Norte | 175.25 |
-
-**Principal Insight:**
--   A análise revelou que, apesar da região **Sudeste** ter o maior volume total de vendas (conforme visto no erro da análise do Dia 5), é a região **Nordeste** que possui o maior gasto médio por pedido. Este é um insight contraintuitivo e muito mais valioso, que só foi possível obter calculando a média em vez da soma.
--   O processo também identificou um pedido "órfão" (ID_Cliente 8), um ponto de atenção sobre a integridade referencial entre as bases de dados da empresa.
-
-## 💡 Conclusão e Próximos Passos
-
-Este projeto demonstrou um fluxo de trabalho de BI completo em pequena escala: integrar dados de múltiplas fontes, limpar o resultado e extrair um insight de negócio que não era aparente inicialmente. A distinção entre `inner` e `left` join, e `sum` vs `mean`, provou ser fundamental para a precisão da análise.
-
-Como próximos passos, esta análise poderia ser expandida para:
-1.  Calcular também o **número de clientes únicos** por região para entender melhor a distribuição da base.
-2.  Visualizar os resultados com um gráfico de barras para facilitar a comunicação do insight.
-3.  Investigar os pedidos "órfãos" para entender a causa da falha de integridade dos dados.
+## 💡 Conclusion
+This project demonstrates a complete, realistic mini-workflow for a data analyst: integrating data from multiple sources, cleaning the result, and performing an aggregation to answer a business question. The distinction between `inner` and `left` join, and `sum` vs `mean`, proved to be fundamental to the accuracy of the analysis.

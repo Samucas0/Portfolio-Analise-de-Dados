@@ -1,33 +1,34 @@
-# Projeto 4: Primeira Análise da Base de Clientes (CRM)
+[🇧🇷 Para a versão em português, clique aqui.](./LEIA-ME.md)
 
-## 🎯 Objetivo de Negócio
-O objetivo deste projeto foi simular a primeira tarefa de um analista de dados ao receber um novo conjunto de dados de clientes: realizar um **diagnóstico inicial**. A análise visa fazer um reconhecimento da base de clientes, identificando seu tamanho, a qualidade dos dados (presença de valores faltantes) e a distribuição demográfica principal (países), gerando um primeiro panorama para guiar futuras análises.
+---
 
-## 📚 Bibliotecas e Conceitos Utilizados
-Este projeto marca a introdução à principal biblioteca de manipulação de dados em Python.
--   **Bibliotecas:** `Pandas`
--   **Conceitos Principais:**
-    -   **DataFrames e Series:** Estruturas de dados fundamentais do Pandas.
-    -   **Leitura de Dados:** `pd.read_csv()` para carregar dados de arquivos.
-    -   **Análise Exploratória:** Uso dos métodos `.head()`, `.info()`, `.describe()` e `.shape` para um diagnóstico rápido.
-    -   **Seleção de Dados:** Filtragem booleana e uso de `.loc[]` para selecionar subconjuntos de dados.
-    -   **Contagem de Frequência:** Uso de `.value_counts()` para sumarizar dados categóricos.
+# Project 4: Initial Customer Database Analysis (CRM)
 
-## 📖 Descrição do Processo
-A análise foi dividida em duas etapas para garantir a fixação dos conceitos:
+## 🎯 Business Objective
+The objective of this project was to simulate a data analyst's first task upon receiving a new customer dataset: performing an **initial diagnosis**. The analysis aims to generate a preliminary overview of the customer base, identifying its size, data quality (presence of missing values), and primary demographic distribution (countries).
 
-1.  **Exercício Prático (`exercicio_pratico/filtro_clientes_alto_valor.ipynb`):**
-    Para praticar o conceito central de seleção de dados, o primeiro passo foi desenvolver um notebook que carrega o dataset e aplica uma filtragem booleana. O script isola e exibe apenas os clientes considerados de "alto valor" (gasto total > R$1.000), consolidando o uso do `.loc[]`.
+## 📚 Libraries and Concepts Used
+-   **Library:** `Pandas`
+-   **Key Concepts:**
+    -   DataFrames and Series.
+    -   Data Loading: `pd.read_csv()`.
+    -   Exploratory Analysis: `.head()`, `.info()`, `.describe()`, `.shape`.
+    -   Data Selection: Boolean filtering and `.loc[]`.
+    -   Frequency Counting: `.value_counts()`.
 
-2.  **Desenvolvimento do Projeto Principal (`explorador_clientes.ipynb`):**
-    Com a base consolidada, o projeto principal foi desenvolvido como um relatório que responde a três perguntas de negócio essenciais:
-    -   O número total de clientes foi obtido através do atributo `.shape`.
-    -   A identificação de dados faltantes foi feita tanto pela análise do `.info()` quanto pela contagem direta com `.isnull().sum()`.
-    -   A distribuição de clientes por país foi calculada de forma automática e ordenada com o método `.value_counts()`.
-    O notebook foi estruturado com células de Markdown para criar uma narrativa clara, transformando o código em um relatório analítico.
+## 📖 Process Description
+1.  **Foundational Exercise (`exercicio_pratico/filtro_clientes_alto_valor.py`):** To practice data selection, the first step was to develop a notebook to load the dataset and apply a boolean filter, isolating and displaying only "high-value" customers (total spend > $1,000).
+2.  **Main Project (`explorador_clientes.ipynb`):** The main project was structured as a report that answers three key business questions:
+    -   The total number of customers was obtained using the `.shape` attribute.
+    -   Missing data was identified by interpreting the output of `.info()` and by direct counting with `.isnull().sum()`.
+    -   The distribution of customers by country was automatically calculated and ranked using the `.value_counts()` method.
+    The notebook was structured with Markdown cells to create a clear narrative.
 
-## 📊 Resultados e Insights
-A análise exploratória do arquivo `clientes.csv` revelou:
--   **Tamanho da Base:** A base de dados contém **8 clientes**.
--   **Qualidade dos Dados:** Foi identificado **1 valor faltante** na coluna `Pais`, o que representa um ponto de atenção para a qualidade do preenchimento cadastral.
--   **Distribuição Geográfica:** O país com a maior concentração de clientes é os **EUA**, com 3 clientes. Os demais países (Brasil, Espanha, Reino Unido, Japão) possuem 1 cliente cada.
+## 📊 Results & Insights
+The exploratory analysis revealed:
+-   **Database Size:** The database contains 8 customers.
+-   **Data Quality:** 1 missing value was identified in the `Pais` (Country) column, a point of concern for data entry quality.
+-   **Geographic Distribution:** The USA has the highest concentration of customers (3), with the remaining countries having 1 customer each.
+
+## 💡 Conclusion
+This project fulfilled the objective of performing a quick and efficient diagnosis of a new dataset. Tools like `.info()` and `.value_counts()` proved essential for extracting valuable information about the data's structure and content with very few lines of code.

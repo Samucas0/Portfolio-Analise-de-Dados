@@ -1,61 +1,29 @@
-# Projeto 2: Mini-Sistema de Gerenciamento de Inventário de Produtos
+[🇧🇷 Para a versão em português, clique aqui.](./LEIA-ME.md)
 
-## 🎯 Objetivo de Negócio
-O objetivo deste projeto foi desenvolver uma aplicação de console interativa para automatizar o controle básico de um inventário de produtos. A ferramenta visa substituir processos manuais de anotação, centralizando a adição, remoção e visualização de itens em estoque, garantindo maior controle e reduzindo a chance de erros operacionais.
+---
 
-## 📚 Bibliotecas e Conceitos Utilizados
-Este projeto aprofunda os fundamentos do Python, com foco especial na organização de código através de funções.
--   **Bibliotecas:** `re` (para tratamento de input do usuário).
--   **Conceitos Principais:**
-    -   **Funções:** Modularização do código em blocos reutilizáveis e com responsabilidades únicas.
-    -   **Dicionários:** Utilizados como a estrutura de dados principal para armazenar o inventário (produto: quantidade).
-    -   **Lógica Condicional:** `if`/`elif`/`else` para controlar o fluxo do menu interativo.
-    -   **Laços:** `while` para manter a aplicação em execução e `for` para iterar sobre o inventário.
-    -   **Tratamento de Exceções:** `try-except` para garantir a robustez da aplicação ao lidar com entradas inválidas do usuário.
+# Project 2: Mini Inventory Management System
 
-## 📖 Descrição do Processo
-A construção do sistema seguiu uma abordagem modular e interativa:
+## 🎯 Business Objective
+The objective of this project was to develop an interactive console application to automate basic inventory control. The tool aims to replace manual tracking processes, centralizing the addition, removal, and reporting of stock items, ensuring greater control and reducing the potential for operational errors.
 
-1.  **Exercício Prático (`exercicio_pratico/calculadora_estoque.py`):** Primeiramente, foi desenvolvido um script simples para praticar a criação de uma função que opera sobre um dicionário, consolidando o conceito principal do dia.
+## 📚 Libraries and Concepts Used
+-   **Libraries:** `re` (for user input handling)
+-   **Key Concepts:**
+    -   **Functions:** Modularizing code into reusable blocks with single responsibilities.
+    -   **Dictionaries:** Used as the core data structure to store inventory.
+    -   **Conditional Logic:** `if/elif/else` to control the interactive menu flow.
+    -   **Loops:** `while` to keep the application running and `for` to iterate over the inventory.
+    -   **Exception Handling:** `try-except` to gracefully handle invalid user inputs.
 
-2.  **Modularização:** A aplicação principal foi dividida em três funções centrais, cada uma com uma responsabilidade clara: `adicionar_item()`, `remover_item()` e `gerar_relatorio_estoque()`.
+## 📖 Process Description
+1.  **Foundational Exercise (`exercicio_pratico/calculadora_estoque.py`):** First, a simple script was developed to practice creating a function that operates on a dictionary, solidifying the day's main concept.
+2.  **Modularization:** The main application was broken down into three core functions: `add_item()`, `remove_item()`, and `generate_stock_report()`.
+3.  **Interactive Interface:** The main execution block (`if __name__ == "__main__":`) contains a `while True` loop that creates a console menu, turning the script into an interactive application.
+4.  **Robustness:** Input validations and a `try-except` block were implemented to ensure the program does not crash on invalid (e.g., non-numeric) user input.
 
-3.  **Estrutura de Dados:** Um dicionário Python foi utilizado para representar o estoque, aproveitando sua eficiência na busca e modificação de itens através de chaves (nomes dos produtos).
+## 📊 Result
+The final result is a functional console application that simulates a real inventory management system, capable of handling user interactions, updating data, and generating reports in real-time.
 
-4.  **Interface Interativa:** O bloco de execução principal (`if __name__ == "__main__":`) contém um laço `while True` que cria um menu de console. Isso transforma o script em uma aplicação interativa, onde o usuário pode escolher qual ação deseja realizar.
-
-5.  **Robustez:** Foram implementadas validações de entrada e um bloco `try-except` na função de adicionar item, garantindo que o programa não quebre caso o usuário digite uma quantidade não numérica.
-
-## 📊 Resultado: Uma Aplicação de Console Funcional
-O resultado final é uma aplicação de console que simula um sistema de gerenciamento de estoque real. Um exemplo de interação com o usuário seria:
-
-```bash
---- Menu de Gerenciamento de Estoque ---
-1: Adicionar Item
-2: Remover Item
-3: Ver Relatório de Estoque
-4: Sair
-Digite o número da sua escolha: 3
-
---- Relatório de Estoque Atual ---
-- Banana: 38 unidades
-- Laranja: 22 unidades
-- Uva: 50 unidades
----------------------------------
-
---- Menu de Gerenciamento de Estoque ---
-1: Adicionar Item
-2: Remover Item
-3: Ver Relatório de Estoque
-4: Sair
-Digite o número da sua escolha: 1
-Digite o produto e a quantidade (ex: "maçã, 15"): maca, 25
-Sucesso: maca com 25 unidades foi adicionado ao estoque.
-
---- Menu de Gerenciamento de Estoque ---
-1: Adicionar Item
-2: Remover Item
-3: Ver Relatório de Estoque
-4: Sair
-Digite o número da sua escolha: 4
-Saindo do programa. Até logo!
+## 💡 Conclusion
+This project was a fundamental step from writing linear scripts to building structured, reusable applications. The key lesson was the importance of separating a complex problem into smaller, manageable parts through functions, and creating a robust, user-facing interactive experience.
