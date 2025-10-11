@@ -30,6 +30,7 @@ A tabela abaixo representa meu plano de estudos ativo, com um novo projeto sendo
 | 05 | Relatório Gerencial de Vendas por Categoria | Pandas, Agregação de Dados (`groupby`), Relatórios Gerenciais | [Acessar Projeto](./05-Relatorio-Vendas-Categoria/) |
 | 06 | Enriquecimento de Dados de Pedidos | Pandas, Junção de Dados (`merge`), Limpeza de Dados (NaNs) | [Acessar Projeto](./06-Enriquecimento-Dados-Pedidos/) |
 | 07 | Diagnóstico de Performance de Produtos | Análise de Ponta a Ponta, Pandas, Recomendação de Negócio | [Acessar Projeto](./07-Ecommerce-Performance-Diagnosis/) |
+| 08 | Relatório Visual de Variação de Custo | Matplotlib, Visualização de Dados, Anotações | [Acessar Projeto](./08-Matplotlib-Visual-Report/) |
 
 ## 📫 Contato
 * **LinkedIn:** `https://www.linkedin.com/in/samuel-fernandes-3a40a4229`
