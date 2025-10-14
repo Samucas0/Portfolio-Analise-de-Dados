@@ -31,6 +31,7 @@ The table below represents my active study plan. I'm developing one project per 
 | 06 | Order Data Enrichment for Marketing | Pandas, Data Joining (`merge`), Data Cleaning (NaNs) | [Access Project](./06-Enriquecimento-Dados-Pedidos/) |
 | 07 | E-commerce Product Performance Diagnosis | End-to-End Analysis, Pandas, Business Recommendation | [Access Project](./07-Ecommerce-Performance-Diagnosis/) |
 | 08 | Visual Report on Raw Material Cost Variation | Matplotlib, Data Visualization, Annotations | [Access Project](./08-Matplotlib-Visual-Report/) |
+| 09 | Risk Factor Analysis for Customer Churn | Seaborn, Statistical Visualization, Hypothesis Testing | [Access Project](./09-Seaborn-Churn-Analysis/) |
 
 ## 📫 Contact
 * **LinkedIn:** `https://www.linkedin.com/in/samuel-fernandes-3a40a4229`
