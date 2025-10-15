@@ -32,6 +32,7 @@ A tabela abaixo representa meu plano de estudos ativo, com um novo projeto sendo
 | 07 | Diagnóstico de Performance de Produtos | Análise de Ponta a Ponta, Pandas, Recomendação de Negócio | [Acessar Projeto](./07-Ecommerce-Performance-Diagnosis/) |
 | 08 | Relatório Visual de Variação de Custo | Matplotlib, Visualização de Dados, Anotações | [Acessar Projeto](./08-Matplotlib-Visual-Report/) |
 | 09 | Análise de Fatores de Risco para Churn | Seaborn, Visualização Estatística, Teste de Hipóteses | [Acessar Projeto](./09-Seaborn-Churn-Analysis/) |
+| 10 | Storytelling com Dados & Relatório Executivo | Storytelling com Dados, Markdown, Comunicação de Negócio | [Acessar Projeto](./10-Data-Storytelling-Executive-Report/) |
 
 ## 📫 Contato
 * **LinkedIn:** `https://www.linkedin.com/in/samuel-fernandes-3a40a4229`
