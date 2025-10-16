@@ -33,6 +33,7 @@ The table below represents my active study plan. I'm developing one project per 
 | 08 | Visual Report on Raw Material Cost Variation | Matplotlib, Data Visualization, Annotations | [Access Project](./08-Matplotlib-Visual-Report/) |
 | 09 | Risk Factor Analysis for Customer Churn | Seaborn, Statistical Visualization, Hypothesis Testing | [Access Project](./09-Seaborn-Churn-Analysis/) |
 | 10 | Data Storytelling & Executive Report | Data Storytelling, Markdown, Business Communication | [Access Project](./10-Data-Storytelling-Executive-Report/) |
+| 11 | Time Series Analysis of Sales Data | Pandas, Time Series, `.resample()`, `.rolling()`, Seasonality | [Access Project](./11-Time-Series-Sales-Analysis/) |
 
 ## 📫 Contact
 * **LinkedIn:** `https://www.linkedin.com/in/samuel-fernandes-3a40a4229`
