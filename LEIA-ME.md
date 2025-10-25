@@ -34,6 +34,7 @@ A tabela abaixo representa meu plano de estudos ativo, com um novo projeto sendo
 | 09 | Análise de Fatores de Risco para Churn | Seaborn, Visualização Estatística, Teste de Hipóteses | [Acessar Projeto](./09-Seaborn-Churn-Analysis/) |
 | 10 | Storytelling com Dados & Relatório Executivo | Storytelling com Dados, Markdown, Comunicação de Negócio | [Acessar Projeto](./10-Data-Storytelling-Executive-Report/) |
 | 11 | Análise de Séries Temporais e Sazonalidade | Pandas, Séries Temporais, `.resample()`, `.rolling()`, Sazonalidade | [Acessar Projeto](./11-Time-Series-Sales-Analysis/) |
+| 12 | Engenharia de Features RFM (Segmentação) | Pandas, Engenharia de Features, `.apply()`, `.groupby().agg()` | [Acessar Projeto](./12-Feature-Engineering-RFM/) |
 
 ## 📫 Contato
 * **LinkedIn:** `https://www.linkedin.com/in/samuel-fernandes-3a40a4229`
