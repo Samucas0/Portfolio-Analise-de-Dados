@@ -36,4 +36,12 @@ A tabela abaixo representa meu plano de estudo ativo. Estou desenvolvendo um pro
 | 08 | Relatório Visual de Variação de Custo de Matéria-Prima | Matplotlib, Visualização de Dados, Anotações Gráficas | [Acessar Projeto](./08-Matplotlib-Visual-Report/) |
 | 09 | Análise de Fatores de Risco para Churn | Seaborn, Visualização Estatística, Teste de Hipóteses | [Acessar Projeto](./09-Seaborn-Churn-Analysis/) |
 | 10 | Data Storytelling & Relatório Executivo | Data Storytelling, Markdown, Comunicação de Negócios | [Acessar Projeto](./10-Data-Storytelling-Executive-Report/) |
-| 11 | Análise de Séries Temporais de Vendas | Pandas, Séries Temporais, `.resample()`, `.rolling()`, Sazonalidade | [Acessar Projeto](./11-Time-
+| 11 | Análise de Séries Temporais de Vendas | Pandas, Séries Temporais, `.resample()`, `.rolling()`, Sazonalidade | [Acessar Projeto](./11-Time-Series-Sales-Analysis/) |
+| 12 | Engenharia de Atributos RFM (Segmentação) | Pandas, Feature Engineering, `.apply()`, `.groupby().agg()` | [Acessar Projeto](./12-Feature-Engineering-RFM/) |
+| 13 | Painel Executivo de Vendas (Tabelas Dinâmicas) | Remodelagem de Dados (`pivot_table`), Tabulação Cruzada, Estilização | [Acessar Projeto](./13-Pandas-Pivot-Table-Dashboard/) |
+| 14 | Tendências de Séries Temporais e Análise de Sentimento | NLP (`TextBlob`), Nuvens de Palavras, Séries Temporais Avançadas | [Acessar Projeto](./14-NLP-Review-Sentiment-Analysis/) |
+| 15 | App Interativo de Vendas (Streamlit) | Deploy de Web App, Streamlit, Interatividade com Plotly | [Acessar Projeto](./15-Streamlit-Sales-Dashboard/) |
+
+## 📫 Contato
+* **LinkedIn:** `https://www.linkedin.com/in/samuel-fernandes-3a40a4229`
+* **Email:** `fernandessamuel10@gmail.com`
