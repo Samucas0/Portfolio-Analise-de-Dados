@@ -4,6 +4,10 @@
 
 # Project 15: Interactive Sales Dashboard with Streamlit
 
+<img width="1365" height="767" alt="Captura de tela 2026-02-04 115228" src="https://github.com/user-attachments/assets/cd38a6ae-fa22-4646-9b6a-d9678e1d7b3d" />
+<img width="1365" height="767" alt="Captura de tela 2026-02-04 115237" src="https://github.com/user-attachments/assets/0d2bad51-bef3-4971-ae43-458b330653d3" />
+
+
 ## 🎯 Business Objective
 The goal of this project is to move beyond static reports (like PDFs or Excel sheets) and build a **Self-Service BI Tool**. By creating an interactive web application, we empower stakeholders (managers, directors) to explore sales data, apply filters dynamically, and answer their own questions without needing to request a new SQL query from the data team.
 
